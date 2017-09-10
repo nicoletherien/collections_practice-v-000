@@ -7,5 +7,7 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  array.sort.length
+  sorted_array = []
+  sorted_array << array.sort.length
+  sorted_array
 end
